@@ -1,83 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bimbo</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-image: url('https://images.unsplash.com/photo-1560184897-85b9a5b97f29'); /* Brick wall texture */
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      color: #f2f2f2;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sliverPh – Landing Page</title>
 
-    header {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 3rem 1rem;
-    }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f0f0f;
+    color: #ffffff;
+    line-height: 1.6;
+}
 
-    header h1 {
-      font-size: 3rem;
-      margin: 0;
-      letter-spacing: 2px;
-    }
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
 
-    main {
-      background: rgba(0, 0, 0, 0.7);
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 2rem;
-      border-radius: 12px;
-    }
+h1, h2 {
+    color: #00ffcc;
+}
 
-    .poem {
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid rgba(255,255,255,0.2);
-    }
+.card {
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
-    .poem h2 {
-      margin-bottom: 0.5rem;
-      font-size: 1.5rem;
-    }
+.button {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #00ffcc;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 
-    .poem p {
-      white-space: pre-line;
-      line-height: 1.6;
-    }
+.button:hover {
+    background: #00ccaa;
+}
 
-    footer {
-      padding: 1rem;
-      background: rgba(0, 0, 0, 0.6);
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-  </style>
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #00ffcc;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #aaa;
+}
+</style>
 </head>
+
 <body>
-  <header>
-    <h1>Bimbo</h1>
-    <p>Poems and reflections</p>
-  </header>
+<div class="container">
 
-  <main>
-    <section class="poem">
-      <h2>Untitled</h2>
-      <p>
-        Your first poem goes here.
-        Add your lines.
-        The wall remembers.
-      </p>
-    </section>
-  </main>
+    <h1>sliverPh</h1>
+    <p><strong>Welcome to my Landing Page — everything is connected from here.</strong></p>
 
-  <footer>
-    © 2025 Bimbo | Built with love and bricks
-  </footer>
+    <!-- YouTube Subscribe -->
+    <div class="card">
+        <h2>🎵 YouTube Music</h2>
+        <p>First, click below to automatically subscribe to my YouTube Music channel.</p>
+        <a class="button"
+           href="https://www.youtube.com/@sliverPh?sub_confirmation=1"
+           target="_blank">
+           Subscribe to sliverPh
+        </a>
+    </div>
+
+    <!-- Room for Rent -->
+    <div class="card">
+        <details>
+            <summary>🏠 ROOM FOR RENT – ₱2500 per room (2 rooms available)</summary>
+            <ul>
+                <li>1 month advance only</li>
+                <li>Free Wi-Fi</li>
+                <li>Free electric and water</li>
+                <li>Free use of automatic washing machine</li>
+                <li>Free use of refrigerator (must not store haram)</li>
+                <li>Free use of kitchen utensils and gas range</li>
+                <li>Fully furnished (bed, study table, cabinet)</li>
+                <li>One room air-conditioned (+₱1500 if used)</li>
+                <li>Gated and safe community</li>
+                <li>Walking distance from MSU Main Gate</li>
+            </ul>
+            <p><strong>For more details: Scan QR Code</strong></p>
+        </details>
+    </div>
+
+    <!-- Personal Retainer -->
+    <div class="card">
+        <details>
+            <summary>👤 Wanted: Personal Retainer (Preferably Working Student)</summary>
+            <p><strong>Preferred background:</strong></p>
+            <ul>
+                <li>High school / College</li>
+                <li>Former sales lady (mall)</li>
+                <li>Hotel staff</li>
+            </ul>
+            <p><strong>Work hours:</strong> Flexible</p>
+            <p><strong>Duties:</strong> Personal multi-purpose aide for upcoming projects</p>
+            <p>Includes professional training, growth, and development</p>
+            <p><strong>Salary:</strong> Per hour, paid twice a month (competitive)</p>
+            <p><strong>How to apply:</strong> Scan QR code → Set appointment → Online interview</p>
+            <p><strong>Start date:</strong> Mid-January to early February 2026</p>
+        </details>
+    </div>
+
+    <!-- Call Center Academy -->
+    <div class="card">
+        <details>
+            <summary>🎧 Call Center Academy</summary>
+            <ul>
+                <li>Interview preparation and coaching</li>
+                <li>Call center basic skills training</li>
+                <li>Improve English fluency</li>
+                <li>Computer skills & typing speed</li>
+                <li>Preliminary interviews with high-paying BPOs</li>
+                <li>Choose company and city/location</li>
+            </ul>
+            <p><strong>Why BPO?</strong></p>
+            <ul>
+                <li>High-paying career</li>
+                <li>Lifetime skills</li>
+                <li>Fast financial growth potential</li>
+            </ul>
+            <p><strong>Fees:</strong> ₱100–₱500 only (refunded if hired)</p>
+            <p><strong>Apply:</strong> Scan QR Code</p>
+        </details>
+    </div>
+
+    <!-- AI Training -->
+    <div class="card">
+        <details>
+            <summary>🤖 AI Training Course</summary>
+            <ul>
+                <li>Master AI tools and workflows</li>
+                <li>Become the most dangerous person in the room</li>
+                <li>Usual cost: ₱5,000–₱50,000+</li>
+                <li>Offered at very minimal cost</li>
+                <li>Self-paced training at home</li>
+                <li>Orientation and learning confirmation included</li>
+            </ul>
+        </details>
+    </div>
+
+    <!-- Services -->
+    <div class="card">
+        <details>
+            <summary>🛠 Services Offered</summary>
+            <ul>
+                <li>Document printing (school, thesis, assignments)</li>
+                <li>ID & passport photo taking and printing</li>
+                <li>Research, thesis, proposals</li>
+                <li>Art, video editing, music creation</li>
+                <li>Legal document preparation & position papers</li>
+                <li>Website creation</li>
+                <li>Excel solutions and formulas</li>
+                <li>Just ask — almost anything</li>
+            </ul>
+        </details>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer">
+        <p><strong>Contact Information</strong></p>
+        <p>FB Messenger: Nuraldin dindang limpao osop</p>
+        <p>Email: ysrafilazrail@gmail.com</p>
+    </div>
+
+</div>
 </body>
 </html>
